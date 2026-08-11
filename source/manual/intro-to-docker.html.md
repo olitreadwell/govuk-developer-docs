@@ -79,7 +79,7 @@ You can see that the gems required for content-publisher are installed! However,
 
 By default gems are saved to `/usr/local/bundle` within the container. But everything in the container is destroyed and reset to the image when it's shut down, just like how objects are destroyed when we stop using them in a program.
 
-To make sure our gems stick around, we could mount `/usr/local/bundle` to the directory on your `$mac`. But there is a Docker way of providing storage which is also [faster](https://docs.docker.com/docker-for-mac/osxfs-caching/).
+To make sure our gems stick around, we could mount `/usr/local/bundle` to the directory on your `$mac`. But there is a Docker way of providing storage which is also [faster](https://docs.docker.com/desktop/settings-and-maintenance/settings/).
 
 ### Persistent volumes
 

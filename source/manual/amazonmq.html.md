@@ -74,7 +74,7 @@ key matching of `*.major`. E.g messages sent to the exchange with a routing key
 of `guide.major` will be routed to that queue.
 
 **Messages** consist of a JSON payload and publish options (we predominantly
-use content type, routing key and persistant).
+use content type, routing key and persistent).
 
 Options:
 
@@ -82,7 +82,7 @@ Options:
   `"application/json"`
 * routing_key (string) - matches against bindings to filter messages to certain
   queues. E.g `"guide.major"`
-* persistant (boolean) - tells RabbitMQ whether to save the message to disk.
+* persistent (boolean) - tells RabbitMQ whether to save the message to disk.
 
 Message options are set when a message is published. In our use case, the
 message's payload is the content item in JSON format. The code in the
