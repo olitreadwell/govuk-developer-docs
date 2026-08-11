@@ -45,10 +45,10 @@ The interesting services are:
 
 As with AWS, you can access GCP using the command line. The standard GCP command line interface is `gcloud`.
 
-You can install `gcloud` with `brew install --cask google-cloud-sdk` or by following the instructions at [google's installation instructions][].
+You can install `gcloud` with `brew install --cask gcloud-cli` or by following the instructions at [google's installation instructions][].
 
 NOTE: By default `gcloud` doesn't put itself on your PATH, so there's an extra manual step to add it.
-Make sure you follow all of the instructions from [homebrew's google-cloud-sdk cask](https://formulae.brew.sh/cask/google-cloud-sdk)
+Make sure you follow all of the instructions from [homebrew's gcloud-cli cask](https://formulae.brew.sh/cask/gcloud-cli)
 or [google's installation instructions][].
 
 Once you've installed `gcloud` you can check it's working using some of these commands:

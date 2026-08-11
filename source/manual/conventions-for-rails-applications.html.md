@@ -106,7 +106,7 @@ stops any other gems being able to alter the version of Rails used.
 
 You should then declare the other gems your application needs to run in
 all environments, which should be followed by
-[groups](https://bundler.io/v1.5/groups.html) to specify gem dependencies
+[groups](https://bundler.io/guides/groups.html) to specify gem dependencies
 for particular environments (typically development and test).
 
 You should avoid specifying the version of a gem (known as pinning) unless

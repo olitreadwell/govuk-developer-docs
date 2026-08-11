@@ -283,7 +283,7 @@ our [Sentry quota](#rate-limiting). It is possible to "undiscard" the issue late
 but this will only capture new events. Any events prior to the "undiscard" action
 are lost.
 
-[Delete and Discard]: https://blog.sentry.io/2018/01/03/delete-and-discard
+[Delete and Discard]: https://docs.sentry.io/product/issues/states-triage/
 
 ## GDS-wide usage of Sentry
 
